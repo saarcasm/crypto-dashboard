@@ -85,7 +85,7 @@ function App() {
     };
     window.addEventListener('resize', handleResize);
 
-    const ws = new WebSocket('ws://localhost:8000/ws');
+    const ws = new WebSocket('ws://crypto-dashboard-971r.onrender.com/ws');
 
     ws.onmessage = (event) => {
       const data = JSON.parse(event.data);
