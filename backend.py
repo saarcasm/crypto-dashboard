@@ -82,3 +82,5 @@ async def websocket_endpoint(websocket: WebSocket):
         print(f"WebSocket Error: {e}")
     finally:
         await r.close()
+
+# Force update v2
